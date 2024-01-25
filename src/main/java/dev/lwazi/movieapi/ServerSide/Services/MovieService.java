@@ -1,6 +1,7 @@
-package dev.lwazi.movieapi;
+package dev.lwazi.movieapi.ServerSide.Services;
 
-import org.bson.types.ObjectId;
+import dev.lwazi.movieapi.ServerSide.Model.Movie;
+import dev.lwazi.movieapi.ServerSide.Repositories.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

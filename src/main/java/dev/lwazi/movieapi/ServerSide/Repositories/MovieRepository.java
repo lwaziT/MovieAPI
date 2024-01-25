@@ -1,5 +1,6 @@
-package dev.lwazi.movieapi;
+package dev.lwazi.movieapi.ServerSide.Repositories;
 
+import dev.lwazi.movieapi.ServerSide.Model.Movie;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

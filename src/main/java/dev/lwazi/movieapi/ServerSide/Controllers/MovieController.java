@@ -1,6 +1,7 @@
-package dev.lwazi.movieapi;
+package dev.lwazi.movieapi.ServerSide.Controllers;
 
-import org.bson.types.ObjectId;
+import dev.lwazi.movieapi.ServerSide.Model.Movie;
+import dev.lwazi.movieapi.ServerSide.Services.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

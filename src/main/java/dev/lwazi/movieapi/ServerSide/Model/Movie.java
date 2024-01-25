@@ -1,4 +1,4 @@
-package dev.lwazi.movieapi;
+package dev.lwazi.movieapi.ServerSide.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

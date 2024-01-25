@@ -1,5 +1,8 @@
-package dev.lwazi.movieapi;
+package dev.lwazi.movieapi.ServerSide.Services;
 
+import dev.lwazi.movieapi.ServerSide.Model.Movie;
+import dev.lwazi.movieapi.ServerSide.Model.Review;
+import dev.lwazi.movieapi.ServerSide.Repositories.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -9,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ReviewService {
     @Autowired
-    private  ReviewRepository reviewRepository;
+    private ReviewRepository reviewRepository;
     @Autowired
     private MongoTemplate mongoTemplate;
     public Review createReview(String reviewBody, String imdbId){
